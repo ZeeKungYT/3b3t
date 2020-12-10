@@ -1,0 +1,40 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      scripts: 
+        start: "node bot.js"
+      engines: 
+        node: "^12"
+      dependencies: 
+        a-star: "^0.2.0"
+        express: "^4.17.1"
+        mineflayer: "^2.37.1"
+        vec3: "^0.1.7"
+        wait-until: "0.0.2"
+      gitHead: "fc77ce8a303853d6ad125c1171b9ed473822689b"
+      name: ""
+      version: ""
+      readme: "ERROR: No README data found!"
+      _id: "@"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving a-star that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/b4b98254-c0f0-4d6c-a127-a271bf2b62db/node_modules/a-star"
+      dest: "/rbd/pnpm-volume/b4b98254-c0f0-4d6c-a127-a271bf2b62db/node_modules/.ignored/a-star"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/b4b98254-c0f0-4d6c-a127-a271bf2b62db/node_modules/a-star' -> '/rbd/pnpm-volume/b4b98254-c0f0-4d6c-a127-a271bf2b62db/node_modules/.ignored/a-star'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/b4b98254-c0f0-4d6c-a127-a271bf2b62db/node_modules/a-star' -> '/rbd/pnpm-volume/b4b98254-c0f0-4d6c-a127-a271bf2b62db/node_modules/.ignored/a-star'"

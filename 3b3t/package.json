@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "^12"
+  },
+  "dependencies": {
+    "a-star": "^0.2.0",
+    "express": "^4.17.1",
+    "mineflayer": "^2.37.1",
+    "vec3": "^0.1.7",
+    "wait-until": "0.0.2"
+  }
+}
