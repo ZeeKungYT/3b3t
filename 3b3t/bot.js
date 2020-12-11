@@ -16,10 +16,10 @@ setInterval(() => {
 var mineflayer = require('mineflayer');
 var options = {
   //host: "mc.civcraft.vg",
-  host: "lb2t.aternos.me",
+  host: "N/A",
   port: 25565,
-  username: "adrianmessel@hotmail.com",
-  password: "Adrian03123",
+  username: "Dream",
+  password: "asshole",
 };
 
 var bot = mineflayer.createBot(options);
